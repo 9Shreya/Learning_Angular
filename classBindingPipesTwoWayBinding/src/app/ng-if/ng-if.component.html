@@ -1,0 +1,18 @@
+<p>ng-if works!</p>
+ <h2 *ngIf="false"> Angular Directives</h2>
+<br>
+ <h2 *ngIf="true"> Angular Directives</h2>
+ <br>
+ <h2>type true or false</h2>
+ <input type="text" [(ngModel)]="bol">
+ <h1>with refrence varoable</h1>
+ <h2 *ngIf="bol">we havent applied string interpolation then also with help of only variable
+     we are getting true as value <u style="color: red;">*ngIf="bol"</u>
+ </h2>
+<h2 *ngIf="bol; else hello">if block will execute</h2>
+<ng-template #hello><h2>else block code</h2></ng-template>
+
+<h2 *ngIf="elseb ; else hello">if block will execute</h2>
+<ng-template #hello>
+    <h2>else block code</h2>
+</ng-template>

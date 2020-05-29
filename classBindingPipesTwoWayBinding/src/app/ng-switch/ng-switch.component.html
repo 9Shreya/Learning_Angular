@@ -1,0 +1,8 @@
+<h2>ng-switch works!</h2>
+<input type="text" [(ngModel)]=choice>
+<h2>choose color from blue and red</h2>
+ <div [ngSwitch]="choice">
+     <h2 *ngSwitchCase="'red'" style="color: red;">content in red color</h2>
+     <h2 *ngSwitchCase="'blue'" style="color: blue;"> content in blue color</h2>
+     <h2 *ngSwitchDefault>Choose a valid color</h2>
+ </div>

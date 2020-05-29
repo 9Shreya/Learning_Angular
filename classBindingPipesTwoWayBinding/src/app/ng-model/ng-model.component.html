@@ -1,0 +1,14 @@
+<h2>ng-model works!</h2>
+<input type="text" [(ngModel)] = "name">
+<h3>{{name}} </h3> 
+<input type="text" value="{{name}}" [disabled]=false>here beacuse of property binding disable is not working<br>
+<br>
+<input type="text" value="{{name}}" disabled={{false}}>here string interpolation is usedthen also disable is working<br>
+<br>
+<input type="text" value="{{name}}" disabled>
+<h3>here see the difrence string interpolation is done by itself we dont ahve to click any button 
+    for this as we are doning in refrence variable</h3>
+    <h4 style="color: red;">here it is giving error for ngModel as we havent imported forms module explicitly</h4>
+    
+
+    

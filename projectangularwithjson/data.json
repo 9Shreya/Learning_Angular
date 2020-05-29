@@ -1,0 +1,115 @@
+{
+  "details": [
+    {
+      "name": " Nikki",
+      "phone": " 7994561330",
+      "email": " nikki@gmail.com",
+      "pass": "12346",
+      "id": "y7zFqNA"
+    },
+    {
+      "name": " Gulab",
+      "phone": "7849516320",
+      "email": "gulab@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "Dnhlz0v"
+    },
+    {
+      "name": "Nisha",
+      "phone": "9874563210",
+      "email": "nisha@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "BRZ5Y-S"
+    },
+    {
+      "name": "Alisha",
+      "phone": "9874563210",
+      "email": "alisha@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "6WNMR2c"
+    },
+    {
+      "name": "Divya",
+      "phone": "8102345679",
+      "email": "divya@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "DnE_doB"
+    },
+    {
+      "name": "Kajal",
+      "phone": "9654123087",
+      "email": "kajal@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "95iZmvg"
+    },
+    {
+      "name": "Pooja",
+      "phone": "9501234678",
+      "email": "pooja@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "7s4Gzyd"
+    },
+    {
+      "name": "Somya ",
+      "phone": "7894561230",
+      "email": "somya@gmail.com",
+      "pass": "12345",
+      "id": "Mi6xnRT"
+    },
+    {
+      "name": " Ayush",
+      "phone": "8745941526",
+      "email": "ayush@gmail.com",
+      "pass": "12345",
+      "id": "cl_LEtq"
+    }
+  ],
+  "coustomer": [
+    {
+      "name": "Shreya",
+      "phone": "787987100",
+      "email": "shreys.agrawal@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "1"
+    },
+    {
+      "name": "Nomi",
+      "phone": "7458963210",
+      "email": "nomi@gmail.com",
+      "pass": "123456",
+      "cpass": "123456",
+      "id": "US4zWzt"
+    },
+    {
+      "name": "Nikki",
+      "phone": "8796541230",
+      "email": "nikki@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "giJ78gW"
+    },
+    {
+      "name": "Gulab",
+      "phone": "9874563210",
+      "email": "gulab@gmail.com",
+      "pass": "123456",
+      "cpass": "123456",
+      "id": "2OWcyMZ"
+    },
+    {
+      "name": "Sabrina",
+      "phone": "7412035689",
+      "email": "sabrina@gmail.com",
+      "pass": "12345",
+      "cpass": "12345",
+      "id": "M-d6bSp"
+    }
+  ]
+}

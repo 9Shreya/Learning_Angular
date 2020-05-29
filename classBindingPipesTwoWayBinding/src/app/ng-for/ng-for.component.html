@@ -1,0 +1,25 @@
+<p>ng-for works!</p>
+<h3 style="color: blue;">values in array</h3>
+ <h2 *ngFor="let item of name">
+     {{item}}
+ </h2>
+ <h3 style="color: blue;">give with index value</h3>
+ <h2 *ngFor="let item of name ;index as i">
+  {{i}}  {{item}}
+</h2>
+<h3 style="color: blue;">give even true</h3>
+<h2 *ngFor="let item of name ;even as i">
+ {{i}}   {{item}}
+</h2>
+<h3 style="color: blue;">give oddd true</h3>
+<h2 *ngFor="let item of name;odd as i">
+  {{i}}  {{item}}
+</h2>
+<h3 style="color: blue;">give first true</h3>
+<h2 *ngFor="let item of name;first as i">
+  {{i}}  {{item}}
+</h2>
+<h3 style="color: blue;">give last true</h3>
+<h2 *ngFor="let item of name;last as i">
+  {{i}}  {{item}}
+</h2>

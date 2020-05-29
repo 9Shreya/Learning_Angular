@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="techSummit.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar-nav navbar-fixed-top">
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-6">
+            <button class="head-button" style="margin-top: 5px;">
+              <h2 id="time"></h2>
+            </button>
+          </div>
+          <div class="head_buton">
+            <div class="col-md-3">
+              <button class="head-button text">
+                <h5>Home</h5>
+              </button>
+            </div>
+            <div class="col-md-3">
+              <button class="head-button text">
+                <h5>About</h5>
+              </button>
+            </div>
+            <div class="col-md-3">
+              <button class="head-button text">
+                <h5>Conference</h5>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="col-12" style="margin-top: 100px;">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+            <li data-target="#demo" data-slide-to="4"></li>
+          </ul>
+          <div class="carousel-inner" style="width: 100%; height: 500px;">
+            <div class="carousel-item active">
+              <img
+                src="pic1.jpeg"
+                alt="Los Angeles"
+                width="100%"
+                height="50%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pic9.jpeg"
+                alt="Los Angeles"
+                width="100%"
+                height="50%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pic10.jpeg"
+                alt="Los Angeles"
+                width="100%"
+                height="50%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pic11.jpeg"
+                alt="Los Angeles"
+                width="100%"
+                height="50%"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="pic12.jpeg"
+                alt="Los Angeles"
+                width="100%"
+                height="50%"
+              />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="robot">
+          <h3>About Robotics</h3>
+          <br /><br /><br />
+          <h5>Hover on Images</h5>
+        </div>
+
+        <div class="div">
+          <div class="pic">
+            <img src="pic5.jpeg" alt="" class="pics" />
+            <div class="det">
+              <button id="butt1" onclick="more()">ReadMore</button>
+            </div>
+          </div>
+
+          <div class="pic">
+            <img src="pic3.jpeg" alt="" class="pics" />
+            <div class="det">
+              <button id="butt2" onclick="more()">ReadMore</button>
+            </div>
+          </div>
+          <div class="pic">
+            <img src="pic7.jpeg" alt="" class="pics" />
+            <div class="det">
+              <button id="butt3" onclick="more()">ReadMore</button>
+            </div>
+          </div>
+          <div class="pic">
+            <img src="pic8.jpeg" alt="" class="pics" />
+            <div class="det">
+              <button id="butt4" onclick="more()">ReadMore</button>
+            </div>
+          </div>
+
+          <div class="pic">
+            <img src="pic4.jpeg" alt="" class="pics" />
+            <div class="det">
+              <button id="butt" onclick="more()">ReadMore</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="but2" style="color: black;"></div>
+      <div class="row">
+        <div class="footter">
+          <div class="col-md-3 face ico">
+            <button><i class="fa fa-facebook"></i></button>
+          </div>
+          <div class="col-md-3 twi ico">
+            <button><i class="fa fa-twitter"></i></button>
+          </div>
+          <div class="col-md-3 you ico">
+            <button><i class="fa fa-youtube"></i></button>
+          </div>
+          <div class="col-md-3 int ico">
+            <button><i class="fa fa-instagram"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="techSummit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<h3>template-refrence-vraiable works!</h3>
+ <h2>welcome {{name}}</h2>
+ <input type="text" #myInput><br>
+ <input type="text" value="{{myInput.value}}">
+ <h3>this other input text is not filled simultaneously as it change above content
+     this hows one way binding this binding is event binding as our data is going from html tp ts file 
+ </h3>
+ <h2> "{{hello}}"   {{name}}</h2>
+ <button (click)="loMsg(myInput)" style="margin-left: 20px;">log</button>
+ <button  (click)="loMsg(myInput.value)" style="margin-left: 20px;">log value</button><br>
+ 
